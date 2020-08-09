@@ -1,211 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BRANCH>
   <PHONES>
-    <TITLE>Empire Burlesque</TITLE>
-    <ARTIST>Bob Dylan</ARTIST>
+    <COST>Empire Burlesque</COST>
+    <BRAND>Bob Dylan</BRAND>
     <COUNTRY>USA</COUNTRY>
     <COMPANY>Columbia</COMPANY>
     <PRICE>10.90</PRICE>
     <YEAR>1985</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Hide your heart</TITLE>
-    <ARTIST>Bonnie Tyler</ARTIST>
+    <COST>Hide your heart</COST>
+    <BRAND>Bonnie Tyler</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>CBS Records</COMPANY>
     <PRICE>9.90</PRICE>
     <YEAR>1988</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Greatest Hits</TITLE>
-    <ARTIST>Dolly Parton</ARTIST>
+    <COST>Greatest Hits</COST>
+    <BRAND>Dolly Parton</BRAND>
     <COUNTRY>USA</COUNTRY>
     <COMPANY>RCA</COMPANY>
     <PRICE>9.90</PRICE>
     <YEAR>1982</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Still got the blues</TITLE>
-    <ARTIST>Gary Moore</ARTIST>
+    <COST>Still got the blues</COST>
+    <BRAND>Gary Moore</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>Virgin records</COMPANY>
     <PRICE>10.20</PRICE>
     <YEAR>1990</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Eros</TITLE>
-    <ARTIST>Eros Ramazzotti</ARTIST>
+    <COST>Eros</COST>
+    <BRAND>Eros Ramazzotti</BRAND>
     <COUNTRY>EU</COUNTRY>
     <COMPANY>BMG</COMPANY>
     <PRICE>9.90</PRICE>
     <YEAR>1997</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>One night only</TITLE>
-    <ARTIST>Bee Gees</ARTIST>
+    <COST>One night only</COST>
+    <BRAND>Bee Gees</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>Polydor</COMPANY>
     <PRICE>10.90</PRICE>
     <YEAR>1998</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Sylvias Mother</TITLE>
-    <ARTIST>Dr.Hook</ARTIST>
+    <COST>Sylvias Mother</COST>
+    <BRAND>Dr.Hook</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>CBS</COMPANY>
     <PRICE>8.10</PRICE>
     <YEAR>1973</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Maggie May</TITLE>
-    <ARTIST>Rod Stewart</ARTIST>
+    <COST>Maggie May</COST>
+    <BRAND>Rod Stewart</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>Pickwick</COMPANY>
     <PRICE>8.50</PRICE>
     <YEAR>1990</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Romanza</TITLE>
-    <ARTIST>Andrea Bocelli</ARTIST>
+    <COST>Romanza</COST>
+    <BRAND>Andrea Bocelli</BRAND>
     <COUNTRY>EU</COUNTRY>
     <COMPANY>Polydor</COMPANY>
     <PRICE>10.80</PRICE>
     <YEAR>1996</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>When a man loves a woman</TITLE>
-    <ARTIST>Percy Sledge</ARTIST>
+    <COST>When a man loves a woman</COST>
+    <BRAND>Percy Sledge</BRAND>
     <COUNTRY>USA</COUNTRY>
     <COMPANY>Atlantic</COMPANY>
     <PRICE>8.70</PRICE>
     <YEAR>1987</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Black angel</TITLE>
-    <ARTIST>Savage Rose</ARTIST>
+    <COST>Black angel</COST>
+    <BRAND>Savage Rose</BRAND>
     <COUNTRY>EU</COUNTRY>
     <COMPANY>Mega</COMPANY>
     <PRICE>10.90</PRICE>
     <YEAR>1995</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>1999 Grammy Nominees</TITLE>
-    <ARTIST>Many</ARTIST>
+    <COST>1999 Grammy Nominees</COST>
+    <BRAND>Many</BRAND>
     <COUNTRY>USA</COUNTRY>
     <COMPANY>Grammy</COMPANY>
     <PRICE>10.20</PRICE>
     <YEAR>1999</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>For the good times</TITLE>
-    <ARTIST>Kenny Rogers</ARTIST>
+    <COST>For the good times</COST>
+    <BRAND>Kenny Rogers</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>Mucik Master</COMPANY>
     <PRICE>8.70</PRICE>
     <YEAR>1995</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Big Willie style</TITLE>
-    <ARTIST>Will Smith</ARTIST>
+    <COST>Big Willie style</COST>
+    <BRAND>Will Smith</BRAND>
     <COUNTRY>USA</COUNTRY>
     <COMPANY>Columbia</COMPANY>
     <PRICE>9.90</PRICE>
     <YEAR>1997</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Tupelo Honey</TITLE>
-    <ARTIST>Van Morrison</ARTIST>
+    <COST>Tupelo Honey</COST>
+    <BRAND>Van Morrison</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>Polydor</COMPANY>
     <PRICE>8.20</PRICE>
     <YEAR>1971</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Soulsville</TITLE>
-    <ARTIST>Jorn Hoel</ARTIST>
+    <COST>Soulsville</COST>
+    <BRAND>Jorn Hoel</BRAND>
     <COUNTRY>Norway</COUNTRY>
     <COMPANY>WEA</COMPANY>
     <PRICE>7.90</PRICE>
     <YEAR>1996</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>The very best of</TITLE>
-    <ARTIST>Cat Stevens</ARTIST>
+    <COST>The very best of</COST>
+    <BRAND>Cat Stevens</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>Island</COMPANY>
     <PRICE>8.90</PRICE>
     <YEAR>1990</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Stop</TITLE>
-    <ARTIST>Sam Brown</ARTIST>
+    <COST>Stop</COST>
+    <BRAND>Sam Brown</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>A and M</COMPANY>
     <PRICE>8.90</PRICE>
     <YEAR>1988</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Bridge of Spies</TITLE>
-    <ARTIST>T'Pau</ARTIST>
+    <COST>Bridge of Spies</COST>
+    <BRAND>T'Pau</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>Siren</COMPANY>
     <PRICE>7.90</PRICE>
     <YEAR>1987</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Private Dancer</TITLE>
-    <ARTIST>Tina Turner</ARTIST>
+    <COST>Private Dancer</COST>
+    <BRAND>Tina Turner</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>Capitol</COMPANY>
     <PRICE>8.90</PRICE>
     <YEAR>1983</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Midt om natten</TITLE>
-    <ARTIST>Kim Larsen</ARTIST>
+    <COST>Midt om natten</COST>
+    <BRAND>Kim Larsen</BRAND>
     <COUNTRY>EU</COUNTRY>
     <COMPANY>Medley</COMPANY>
     <PRICE>7.80</PRICE>
     <YEAR>1983</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Pavarotti Gala Concert</TITLE>
-    <ARTIST>Luciano Pavarotti</ARTIST>
+    <COST>Pavarotti Gala Concert</COST>
+    <BRAND>Luciano Pavarotti</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>DECCA</COMPANY>
     <PRICE>9.90</PRICE>
     <YEAR>1991</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>The dock of the bay</TITLE>
-    <ARTIST>Otis Redding</ARTIST>
+    <COST>The dock of the bay</COST>
+    <BRAND>Otis Redding</BRAND>
     <COUNTRY>USA</COUNTRY>
     <COMPANY>Stax Records</COMPANY>
     <PRICE>7.90</PRICE>
     <YEAR>1968</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Picture book</TITLE>
-    <ARTIST>Simply Red</ARTIST>
+    <COST>Picture book</COST>
+    <BRAND>Simply Red</BRAND>
     <COUNTRY>EU</COUNTRY>
     <COMPANY>Elektra</COMPANY>
     <PRICE>7.20</PRICE>
     <YEAR>1985</YEAR>
   </PHONES>
   <PHONES>
-    <TITLE>Red</TITLE>
-    <ARTIST>The Communards</ARTIST>
+    <COST>Red</COST>
+    <BRAND>The Communards</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>London</COMPANY>
     <PRICE>7.80</PRICE>
     <YEAR>1987</YEAR>
   </PHONES>
-  <CD>
-    <TITLE>Unchain my heart</TITLE>
-    <ARTIST>Joe Cocker</ARTIST>
+  <PHONES>
+    <COST>Unchain my heart</COST>
+    <BRAND>Joe Cocker</BRAND>
     <COUNTRY>USA</COUNTRY>
     <COMPANY>EMI</COMPANY>
     <PRICE>8.20</PRICE>
     <YEAR>1987</YEAR>
-  </CD>
+  </PHONES>
 </BRANCH>
