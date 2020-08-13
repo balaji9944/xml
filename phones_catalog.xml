@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BRANCH>
   <PHONES>
-    <COST></COST>
+    <COST>19,500</COST>
     <BRAND>Samsung </BRAND>
     <MODEL>Galaxy M31s</MODEL>
     <COMPANY>Columbia</COMPANY>
@@ -42,4 +42,4 @@
     <PRICE>9.90</PRICE>
     <YEAR>1997</YEAR>
   </PHONES>
-  </BRANCH>
+</BRANCH>
