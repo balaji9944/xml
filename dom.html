@@ -21,13 +21,13 @@ xmlhttp = new XMLHttpRequest();
 xmlhttp.open("GET", "phones_catalog.xml", false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML; 
-x = xmlDoc.getElementsByTagName("PHONES");
-table="<tr><th>BRAND</th><th>COST</th></tr>";
+x = xmlDoc.getElementsByTagName("CD");
+table="<tr><th>Artist</th><th>Title</th></tr>";
 for (i = 0; i <x.length; i++) { 
   table += "<tr onclick='displayCD(" + i + ")'><td>";
-  table += x[i].getElementsByTagName("BRAND")[0].childNodes[0].nodeValue;
+  table += x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue;
   table += "</td><td>";
-  table +=  x[i].getElementsByTagName("COST")[0].childNodes[0].nodeValue;
+  table +=  x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue;
   table += "</td></tr>";
 }
 document.getElementById("demo").innerHTML = table;
@@ -35,9 +35,9 @@ document.getElementById("demo").innerHTML = table;
 function displayCD(i) {
   document.getElementById("showCD").innerHTML =
   "Artist: " +
-  x[i].getElementsByTagName("BRAND")[0].childNodes[0].nodeValue +
+  x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
   "<br>Title: " +
-  x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue +
+  x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
   "<br>Year: " + 
   x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue;
 }
