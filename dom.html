@@ -21,8 +21,8 @@ xmlhttp = new XMLHttpRequest();
 xmlhttp.open("GET", "phones_catalog.xml", false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML; 
-x = xmlDoc.getElementsByTagName("CD");
-table="<tr><th>Artist</th><th>Title</th></tr>";
+x = xmlDoc.getElementsByTagName("TOPPHONES");
+table="<tr><th>Brand</th><th>Model</th></tr>";
 for (i = 0; i <x.length; i++) { 
   table += "<tr onclick='displayCD(" + i + ")'><td>";
   table += x[i].getElementsByTagName("BRAND")[0].childNodes[0].nodeValue;
@@ -34,12 +34,14 @@ document.getElementById("demo").innerHTML = table;
 
 function displayCD(i) {
   document.getElementById("showCD").innerHTML =
-  "Artist: " +
+  "Brand: " +
   x[i].getElementsByTagName("BRAND")[0].childNodes[0].nodeValue +
-  "<br>Title: " +
+  "<br>Model: " +
   x[i].getElementsByTagName("MODEL")[0].childNodes[0].nodeValue +
-  "<br>Year: " + 
-  x[i].getElementsByTagName("IMAGE")[0].childNodes[0].nodeValue;
+  "<br>Price: " +
+    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue +
+  "<br>Performance: " +
+  x[i].getElementsByTagName("PERFORMANCE")[0].childNodes[0].nodeValue;
 }
 </script>
 
