@@ -42,7 +42,11 @@ function displayCD(i) {
   "<br>Model: " +
   x[i].getElementsByTagName("MODEL")[0].childNodes[0].nodeValue +
   "<br>Price: " +
-    x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue +
+  x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue +
+  "<br>Battery: " +
+  x[i].getElementsByTagName("BATTERY")[0].childNodes[0].nodeValue +
+  "<br>Country: " +
+  x[i].getElementsByTagName("COUNTRY")[0].childNodes[0].nodeValue +
   "<br>Performance: " +
   x[i].getElementsByTagName("PERFORMANCE")[0].childNodes[0].nodeValue;
 }
