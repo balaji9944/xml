@@ -6,9 +6,10 @@
     <COUNTRY>USA</COUNTRY>
     <COMPANY>Columbia</COMPANY>
     <PRICE>10.90</PRICE>
-    <IMAGE>
-      <url>m31.jpg</url>
-    </IMAGE>
+    <image url="m31.jpg"
+       name="South Boulder-aerial photo"
+       ullat="39.98890" ullon="-105.22782"
+       lrlat="39.98755" lrlon="-105.22548"/>
   </CD>
   <CD>
     <MODEL>Hide your heart</MODEL>
