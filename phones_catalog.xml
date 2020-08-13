@@ -5,9 +5,11 @@
     <BRAND>Samsung </BRAND>
     <MODEL>Galaxy M31s</MODEL>
     <COMPANY>Columbia</COMPANY>
-    <PHOTO><html xmlns="http://www.w3.org/1999/xhtml">
-      <img src="m31.jpg" />                                                  
-    </html></PHOTO>
+    <PHOTO>
+      <html xmlns="http://www.w3.org/1999/xhtml">
+        <img src="m31.jpg"/>                                                  
+      </html>
+    </PHOTO>
     <YEAR>1985</YEAR>
   </PHONES>
   <PHONES>
