@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BRANCH>
+  <PHONES>
+    <COST></COST>
+    <BRAND>Samsung </BRAND>
+    <MODEL>Galaxy M31s</MODEL>
+    <COMPANY>Columbia</COMPANY>
+    <PHOTO><html xmlns="http://www.w3.org/1999/xhtml">
+      <img src="m31.jpg" />                                                  
+    </html></PHOTO>
+    <YEAR>1985</YEAR>
+  </PHONES>
+  <PHONES>
+    <COST>Hide your heart</COST>
+    <BRAND></BRAND>
+    <MODEL>UK</MODEL>
+    <COMPANY>CBS Records</COMPANY>
+    <PRICE>9.90</PRICE>
+    <YEAR>1988</YEAR>
+  </PHONES>
+  <PHONES>
+    <COST>Greatest Hits</COST>
+    <BRAND>Dolly Parton</BRAND>
+    <MODEL>USA</MODEL>
+    <COMPANY>RCA</COMPANY>
+    <PRICE>9.90</PRICE>
+    <YEAR>1982</YEAR>
+  </PHONES>
+  <PHONES>
+    <COST>Still got the blues</COST>
+    <BRAND>Gary Moore</BRAND>
+    <MODEL>UK</MODEL>
+    <COMPANY>Virgin records</COMPANY>
+    <PRICE>10.20</PRICE>
+    <YEAR>1990</YEAR>
+  </PHONES>
+  <PHONES>
+    <COST>Eros</COST>
+    <BRAND>Eros Ramazzotti</BRAND>
+    <MODEL>EU</MODEL>
+    <COMPANY>BMG</COMPANY>
+    <PRICE>9.90</PRICE>
+    <YEAR>1997</YEAR>
+  </PHONES>
+  </BRANCH>
