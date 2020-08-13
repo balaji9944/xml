@@ -1,43 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CATALOG>
   <CD>
-    <TITLE>Empire Burlesque</TITLE>
-    <ARTIST>Bob Dylan</ARTIST>
+    <MODEL>Empire Burlesque</MODEL>
+    <BRAND>Bob Dylan</BRAND>
     <COUNTRY>USA</COUNTRY>
     <COMPANY>Columbia</COMPANY>
     <PRICE>10.90</PRICE>
-    <YEAR>1985</YEAR>
+    <IMAGE>
+      <url>https://images.samsung.com/is/image/samsung/in-galaxy-m31-m315f-6gb-sm-m315fzbdins-frontblue-thumb-218636844</url>
+    </IMAGE>
   </CD>
   <CD>
-    <TITLE>Hide your heart</TITLE>
-    <ARTIST>Bonnie Tyler</ARTIST>
+    <MODEL>Hide your heart</MODEL>
+    <BRAND>Bonnie Tyler</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>CBS Records</COMPANY>
     <PRICE>9.90</PRICE>
-    <YEAR>1988</YEAR>
+    <IMAGE>1988</IMAGE>
   </CD>
   <CD>
-    <TITLE>Greatest Hits</TITLE>
-    <ARTIST>Dolly Parton</ARTIST>
+    <MODEL>Greatest Hits</MODEL>
+    <BRAND>Dolly Parton</BRAND>
     <COUNTRY>USA</COUNTRY>
     <COMPANY>RCA</COMPANY>
     <PRICE>9.90</PRICE>
-    <YEAR>1982</YEAR>
+    <IMAGE>1982</IMAGE>
   </CD>
   <CD>
-    <TITLE>Still got the blues</TITLE>
-    <ARTIST>Gary Moore</ARTIST>
+    <MODEL>Still got the blues</MODEL>
+    <BRAND>Gary Moore</BRAND>
     <COUNTRY>UK</COUNTRY>
     <COMPANY>Virgin records</COMPANY>
     <PRICE>10.20</PRICE>
-    <YEAR>1990</YEAR>
+    <IMAGE>1990</IMAGE>
   </CD>
   <CD>
-    <TITLE>Eros</TITLE>
-    <ARTIST>Eros Ramazzotti</ARTIST>
+    <MODEL>Eros</MODEL>
+    <BRAND>Eros Ramazzotti</BRAND>
     <COUNTRY>EU</COUNTRY>
     <COMPANY>BMG</COMPANY>
     <PRICE>9.90</PRICE>
-    <YEAR>1997</YEAR>
+    <IMAGE>1997</IMAGE>
   </CD>
 </CATALOG>
