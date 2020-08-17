@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html>
 <body>
-<button type="button" onclick="loadXMLDoc()">Get my CD collection</button>
+Click here to check available phones : <button type="button" onclick="loadXMLDoc();showResult(xml);">Check</button>
 <br><br>
 <p id="demo"></p>
-
+Click here to check prices of available phones : <button type="button" onclick="loadXMLDoc2();showResult2(xml)">Check</button>
 <script>
     function loadXMLDoc(){
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            showResult(xhttp.responseXML);
+        }
+    };
+    xhttp.open("GET", "phones_catalog.xml", true);
+    xhttp.send(); 
+    }
+    function loadXMLDoc2(){
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
@@ -19,6 +29,26 @@
 function showResult(xml) {
     var txt = "";
     path = "/CATALOG/TOPPHONES/MODEL"
+    if (xml.evaluate) {
+        var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+        var result = nodes.iterateNext();
+        while (result) {
+            txt += result.childNodes[0].nodeValue + "<br>";
+            result = nodes.iterateNext();
+        } 
+    // Code For Internet Explorer
+    } else if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+        xml.setProperty("SelectionLanguage", "XPath");
+        nodes = xml.selectNodes(path);
+        for (i = 0; i < nodes.length; i++) {
+            txt += nodes[i].childNodes[0].nodeValue + "<br>";
+        }
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+    function showResult2(xml) {
+    var txt = "";
+    path = "/CATALOG/TOPPHONES/PRICE"
     if (xml.evaluate) {
         var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
         var result = nodes.iterateNext();
