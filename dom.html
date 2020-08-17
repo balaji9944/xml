@@ -25,7 +25,7 @@ xmlhttp.open("GET", "phones_catalog.xml", false);
 xmlhttp.send();
 xmlDoc = xmlhttp.responseXML; 
 x = xmlDoc.getElementsByTagName("TOPPHONES");
-table="<tr><th>Brand</th><th>Link</th><th>Model</th></tr>";
+table="<tr><th>Brand</th><th>Model</th></tr>";
 for (i = 0; i <x.length; i++) { 
   table += "<tr onclick='displayCD(" + i + ")'><td>";
   table += x[i].getElementsByTagName("BRAND")[0].childNodes[0].nodeValue;
