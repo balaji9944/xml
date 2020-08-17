@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <body>
-Click here to check available phones / Prices: <button type="button" onclick="loadXMLDoc();showResult(xml);">Phones</button><button type="button" onclick="loadXMLDoc2();showResult2(xml)">Prices</button>
+Click here to check available phones / Prices / links: <button type="button" onclick="loadXMLDoc();showResult(xml);">Phones</button><button type="button" onclick="loadXMLDoc2();showResult2(xml)">Prices</button>
+<button type="button" onclick="loadXMLDoc3();showResult3(xml)">Prices</button>
 <br><br>
 <p id="demo"></p>
 <script>
@@ -23,6 +24,16 @@ Click here to check available phones / Prices: <button type="button" onclick="lo
         }
     };
     xhttp.open("GET", "phones_catalog.xml", true);
+    xhttp.send(); 
+    }
+    function loadXMLDoc3(){
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+            showResult3(xhttp.responseXML);
+        }
+    };
+    xhttp.open("GET", "experiment.xml", true);
     xhttp.send(); 
     }
 function showResult(xml) {
@@ -48,6 +59,26 @@ function showResult(xml) {
     function showResult2(xml) {
     var txt = "";
     path = "/CATALOG/TOPPHONES/PRICE"
+    if (xml.evaluate) {
+        var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+        var result = nodes.iterateNext();
+        while (result) {
+            txt += result.childNodes[0].nodeValue + "<br>";
+            result = nodes.iterateNext();
+        } 
+    // Code For Internet Explorer
+    } else if (window.ActiveXObject || xhttp.responseType == "msxml-document") {
+        xml.setProperty("SelectionLanguage", "XPath");
+        nodes = xml.selectNodes(path);
+        for (i = 0; i < nodes.length; i++) {
+            txt += nodes[i].childNodes[0].nodeValue + "<br>";
+        }
+    }
+    document.getElementById("demo").innerHTML = txt;
+}
+    function showResult3(xml) {
+    var txt = "";
+    path = "/homepages/homepage"
     if (xml.evaluate) {
         var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
         var result = nodes.iterateNext();
