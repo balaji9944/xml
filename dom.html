@@ -30,7 +30,7 @@ for (i = 0; i <x.length; i++) {
   table += "<tr onclick='displayCD(" + i + ")'><td>";
   table += x[i].getElementsByTagName("BRAND")[0].childNodes[0].nodeValue;
   table += "</td><td>";
-  table += x[i].getElementsByTagName("homepages")[0].childNodes[0].nodeValue;
+  table += x[i].getElementsByTagName("homepage")[0].childNodes[0].nodeValue;
   table += "</td><td>";
   table +=  x[i].getElementsByTagName("MODEL")[0].childNodes[0].nodeValue;
   table += "</td></tr>";
@@ -48,7 +48,7 @@ function displayCD(i) {
   "<br>Battery: " +
   x[i].getElementsByTagName("BATTERY")[0].childNodes[0].nodeValue +
    "<br>Link: " +
-  x[i].getElementsByTagName("homepages")[0].childNodes[0].nodeValue +
+  x[i].getElementsByTagName("homepage")[0].childNodes[0].nodeValue +
   "<br>Country: " +
   x[i].getElementsByTagName("COUNTRY")[0].childNodes[0].nodeValue +
   "<br>Performance: " +
