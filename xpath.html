@@ -20,7 +20,7 @@ Click here to check prices of available phones : <button type="button" onclick="
     var xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            showResult(xhttp.responseXML);
+            showResult2(xhttp.responseXML);
         }
     };
     xhttp.open("GET", "phones_catalog.xml", true);
