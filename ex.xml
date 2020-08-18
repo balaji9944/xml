@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ex.xsl" type="text/xsl"?>
-<CATALOG xmlns="http://example.org/xmlns/2002/document" xmlns:xlink="http://www.w3.org/1999/xlink">
+<CATALOG xmlns:xlink="http://www.w3.org/1999/xlink">
   <TOPPHONES>
     <MODEL>Galaxy M 31s</MODEL>
     <BRAND>Samsung</BRAND>
