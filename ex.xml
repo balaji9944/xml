@@ -55,4 +55,8 @@
     <PERFORMANCE>Octa core (2 GHz, Dual Core + 1.7 GHz, Hexa Core)|MediaTek Helio G70|3 GB RAM</PERFORMANCE>
     <homepage xlink:type="simple" xlink:href="https://www.digit.in/mobile-phones/samsung-galaxy-m31s-price-208459.html">More on M31s</homepage>
   </TOPPHONES>
+<homepages xmlns:xlink="http://www.w3.org/1999/xlink">
+  <homepage xlink:type="simple" xlink:href="https://www.w3schools.com">Visit W3Schools</homepage>
+  <homepage xlink:type="simple" xlink:href="http://www.w3.org">Visit W3C</homepage>
+</homepages>
 </CATALOG>
