@@ -17,7 +17,7 @@
         <td><xsl:value-of select="MODEL"/></td>
         <td><xsl:value-of select="BRAND"/></td>
         <td><xsl:value-of select="PRICE"/></td>
-        <td><xsl:value-of select="homepages"/></td>
+        <td><xsl:value-of select="homepage"/></td>
       </tr>
     </xsl:for-each>
   </table>  
