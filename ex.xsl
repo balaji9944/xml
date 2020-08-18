@@ -10,16 +10,13 @@
       <th>MODEL</th>
       <th>BRAND</th>
       <th>PRICE</th>
+      <th>LINK</th>
     </tr>
     <xsl:for-each select="TOPPHONES">
       <tr>
         <td><xsl:value-of select="MODEL"/></td>
         <td><xsl:value-of select="BRAND"/></td>
         <td><xsl:value-of select="PRICE"/></td>
-      </tr>
-    </xsl:for-each>
-    <xsl:for-each select="homepages">
-      <tr>
         <td><xsl:value-of select="homepage"/></td>
       </tr>
     </xsl:for-each>
