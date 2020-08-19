@@ -1,0 +1,52 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE empinfo [
+    <!ELEMENT empinfo (employee)>
+
+    <!ELEMENT employee (ename, designation, email, salary, experience)>
+    <!ATTLIST employee id CDATA #REQUIRED>
+
+    <!ELEMENT ename (#PCDATA)>
+    <!ATTLIST ename from CDATA #IMPLIED>
+
+    <!ELEMENT designation (#PCDATA)>
+    <!ATTLIST designation mindegree CDATA #FIXED "TENTH">
+
+    <!ELEMENT email (#PCDATA)>
+    <!ATTLIST email domain CDATA "personal">  
+
+    <!ELEMENT salary (#PCDATA)>
+    <!ATTLIST salary domain CDATA "personal">  
+
+    <!ELEMENT experience (#PCDATA)>
+    <!ATTLIST experience months CDATA "0">
+]>
+<empinfo>
+    <employee id="1">
+        <ename>Mr.A </ename>
+        <designation>Sales</designation>
+        <email>sales@gmail.com</email>
+        <salary>15000</salary>
+        <experience>2</experience>
+    </employee>
+    <employee id="2">
+        <ename>Mr.B</ename>
+        <designation mindegree="TENTH">Senior Sales</designation>
+        <email>ssales@gmail.com</email>
+        <salary>17000</salary>
+        <experience months="1"></experience>
+    </employee>
+    <employee id="3">
+        <ename>Mr.C</ename>
+        <designation mindegree="TENTH">Manager</designation>
+        <email>manager@gmail.com</email>
+        <salary>20000</salary>
+        <experience>8</experience>
+    </employee>
+    <employee id="4">
+        <ename>Mr.D</ename>
+        <designation mindegree="TENTH">Super Senior Sales</designation>
+        <email>sssales@email.com</email>
+        <salary>17000</salary>
+        <experience>10</experience>
+    </employee>
+</empinfo>
