@@ -1,0 +1,79 @@
+<!DOCTYPE html>  
+<html>  
+<body>  
+<h1>XPATH</h1>  
+<div>  
+  <h3>Accessing Node by Node Location</h3> 
+  <p id="location"></p>
+  <h3>Accessing Node by Node Type</h3> 
+  <p id="nodetype"></p>
+  <h3>Accessing Node by Node Predicate</h3> 
+  <p id="predicate"></p>
+  <h3>Accessing Node by Node Node-Set</h3> 
+  <p id="nodeset"></p>
+
+</div>  
+<script>  
+var txt = "";
+if (window.XMLHttpRequest)  
+  {// code for IE7+, Firefox, Chrome, Opera, Safari  
+      xmlhttp=new XMLHttpRequest();  
+  }  
+else  
+  {// code for IE6, IE5  
+      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");  
+  }  
+xmlhttp.open("GET","reviews.xml",false);  
+xmlhttp.send();  
+xml = xmlhttp.responseXML;  
+
+//Accessing By Node Location
+var path = "/reviews/review/*";  
+var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+var result = nodes.iterateNext();
+while (result) {
+    txt += result.childNodes[0].nodeValue + "<br>";
+    result = nodes.iterateNext();  
+}
+document.getElementById("location").innerHTML = txt;
+
+//Accessing By Node Type
+path = "//*";  
+txt = "";
+var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+var result = nodes.iterateNext();
+while (result) {
+    txt += result.childNodes[0].nodeValue + "<br>";
+    result = nodes.iterateNext();  
+}
+document.getElementById("nodetype").innerHTML = txt;
+
+//Accessing By Predicate
+path = "/reviews/review[last()]/*";  
+txt = "";
+var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+var result = nodes.iterateNext();
+while (result) {
+    txt += result.childNodes[0].nodeValue + "<br>";
+    result = nodes.iterateNext();  
+}
+document.getElementById("predicate").innerHTML = txt;
+
+
+//Accessing By Node Set Function
+var path = "fn:ceil(/reviews/review[1]/ratings)";  
+txt = "";
+var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
+var result = nodes.iterateNext();
+while (result) {
+    txt += result.childNodes[0].nodeValue + "<br>";
+    result = nodes.iterateNext();  
+}
+document.getElementById("nodeset").innerHTML = txt;
+
+
+</script>  
+</body>  
+</html>   
+
+ 
