@@ -61,7 +61,7 @@ document.getElementById("predicate").innerHTML = txt;
 
 
 //Accessing By Node Set Function
-var path = "fn:ceil(/empinfo/employee[1]/salary/)";  
+var path = "fn:ceil(/empinfo/employee[1]/salary)";  
 txt = "";
 var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
 var result = nodes.iterateNext();
