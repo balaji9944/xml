@@ -1,25 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
-<!DOCTYPE empinfo [
-    <!ELEMENT empinfo (employee)>
-
-    <!ELEMENT employee (ename, designation, email, salary, experience)>
-    <!ATTLIST employee id CDATA #REQUIRED>
-
-    <!ELEMENT ename (#PCDATA)>
-    <!ATTLIST ename from CDATA #IMPLIED>
-
-    <!ELEMENT designation (#PCDATA)>
-    <!ATTLIST designation mindegree CDATA #FIXED "TENTH">
-
-    <!ELEMENT email (#PCDATA)>
-    <!ATTLIST email domain CDATA "personal">  
-
-    <!ELEMENT salary (#PCDATA)>
-    <!ATTLIST salary domain CDATA "personal">  
-
-    <!ELEMENT experience (#PCDATA)>
-    <!ATTLIST experience months CDATA "0">
-]>
+<?xml version="1.0" encoding="UTF-8"?>
 <empinfo>
     <employee id="1">
         <ename>Mr.A </ename>
