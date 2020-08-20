@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="ex.xsl" type="text/xsl"?>
 <CATALOG xmlns:xlink="http://www.w3.org/1999/xlink">
-  <TOPPHONES>
+  <TOPPHONES id="1">
     <MODEL>Galaxy M 31s</MODEL>
     <BRAND>Samsung</BRAND>
     <COUNTRY>South Korea</COUNTRY>
@@ -10,7 +10,7 @@
     <PERFORMANCE>Octa core (2.3 GHz, Quad Core + 1.7 GHz, Quad core)|Samsung Exynos 9 Octa|6 GB RAM</PERFORMANCE>
     <homepage xlink:type="simple" xlink:href="https://balaji9944.github.io/xml/dom.html">Phones</homepage>
   </TOPPHONES>
-  <TOPPHONES>
+  <TOPPHONES id="2">
     <MODEL>Galaxy M 31</MODEL>
     <BRAND>Samsung</BRAND>
     <COUNTRY>South Korea</COUNTRY>
@@ -19,7 +19,7 @@
     <PERFORMANCE>Octa core (2.3 GHz, Quad Core + 1.7 GHz, Quad core)|Samsung Exynos 9 Octa|6 GB RAM</PERFORMANCE>
     <homepage xlink:type="simple" xlink:href="https://balaji9944.github.io/xml/dom.html">Phones</homepage>
   </TOPPHONES>
-  <TOPPHONES>
+  <TOPPHONES id="3">
     <MODEL>Narzo 10</MODEL>
     <BRAND>Realme</BRAND>
     <COUNTRY>China</COUNTRY>
@@ -28,7 +28,7 @@
     <PERFORMANCE>Octa core (2 GHz, Dual Core + 1.8 GHz, Hexa Core)|MediaTek Helio G80|4 GB RAM</PERFORMANCE>
     <homepage xlink:type="simple" xlink:href="https://balaji9944.github.io/xml/dom.html">Phones</homepage>
   </TOPPHONES>
-  <TOPPHONES>
+  <TOPPHONES id="4">
     <MODEL>Redmi 9 pro max</MODEL>
     <BRAND>Xiaomi</BRAND>
     <COUNTRY>China</COUNTRY>
@@ -37,7 +37,7 @@
     <PERFORMANCE>Octa core (2.3 GHz, Dual Core + 1.8 GHz, Hexa Core)|Snapdragon 720G|6 GB RAM</PERFORMANCE>
     <homepage xlink:type="simple" xlink:href="https://balaji9944.github.io/xml/dom.html">Phones</homepage>
   </TOPPHONES>
-  <TOPPHONES>
+  <TOPPHONES id="5">
     <MODEL>Galaxy M21</MODEL>
     <BRAND>Samsung</BRAND>
     <COUNTRY>South Korea</COUNTRY>
@@ -46,7 +46,7 @@
     <PERFORMANCE>Octa core (2.3 GHz, Quad Core + 1.7 GHz, Quad core)|Samsung Exynos 9 Octa|4 GB RAM</PERFORMANCE>
     <homepage xlink:type="simple" xlink:href="https://balaji9944.github.io/xml/dom.html">Phones</homepage>
   </TOPPHONES>
-  <TOPPHONES>
+  <TOPPHONES id="6">
     <MODEL>Narzo 10A</MODEL>
     <BRAND>Realme</BRAND>
     <COUNTRY>China</COUNTRY>
