@@ -23,25 +23,18 @@
         <td><xsl:value-of select = "floor(PRICE)"/></td>
         <td><xsl:value-of select="MODEL"/></td>
         <td><xsl:value-of select="BRAND"/></td>
-        <td><xsl:value-of select="PRICE"/></td>
         <td><xsl:value-of select="homepage"/></td>
-        <td>
         <xsl:choose>
-                           <xsl:when test = "PRICE div 19000 <= 1">
-                              Low Range Phone
-                           </xsl:when>
-              
-                           <xsl:when test = "PRICE div 10000 >= 1">
-                              Med Range Phone
-                           </xsl:when>
-              
-                           <xsl:otherwise>
-                              Low Range Phone
-                           </xsl:otherwise>
+          <xsl:when test="PRICE > 15000">
+             <td bgcolor="#ff00ff">
+             <xsl:value-of select="PRICE"/>
+             </td>
+          </xsl:when>
+          <xsl:otherwise>
+             <td><xsl:value-of select="PRICE"/></td>
+          </xsl:otherwise>
         </xsl:choose>
-    
-        </td>
-        
+       
       </tr>
     </xsl:for-each>
   </table>  
