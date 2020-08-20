@@ -55,48 +55,26 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <h3>Card 1</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <h3>Accessing Node by Node Location</h3>
+      <p id="location"></p>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <h3>Card 2</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <h3>Accessing Node by Node Type</h3>
+      <p id="nodetype"></p>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <h3>Card 3</h3>
-      <p>Some text</p>
-      <p>Some text</p>
-    </div>
-  </div>
-  
-  <div class="column">
-    <div class="card">
-      <h3>Card 4</h3>
-      <p>Some text</p>
-      <p>Some text</p>
+      <h3>Accessing Node by Node Predicate</h3>
+      <p id="predicate"></p>
     </div>
   </div>
 </div>
   <br><br>
-<div>  
-  <h3>Accessing Node by Node Location</h3> 
-  <p id="location"></p>
-  <h3>Accessing Node by Node Type</h3> 
-  <p id="nodetype"></p>
-  <h3>Accessing Node by Node Predicate</h3> 
-  <p id="predicate"></p>
-  <h3>Accessing Node by Node Node-Set</h3> 
-  <p id="nodeset"></p>
-
-</div>  
 <script>  
 var txt = "";
 if (window.XMLHttpRequest)  
@@ -142,19 +120,6 @@ while (result) {
     result = nodes.iterateNext();  
 }
 document.getElementById("predicate").innerHTML = txt;
-
-
-//Accessing By Node Set Function
-var path = "fn:ceil(/CATALOG/TOPPHONES/PRICE[18980])";  
-txt = "";
-var nodes = xml.evaluate(path, xml, null, XPathResult.ANY_TYPE, null);
-var result = nodes.iterateNext();
-while (result) {
-    txt += result.childNodes[0].nodeValue + "<br>";
-    result = nodes.iterateNext();  
-}
-document.getElementById("nodeset").innerHTML = txt;
-
 
 </script>  
 </body>  
