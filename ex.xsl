@@ -4,7 +4,9 @@
 <xsl:template match="/CATALOG">
   <html>
   <body>
-  <h2>My CD Collection</h2>
+  <h2>TOP PHONES IN INDIA 2020</h2>
+  <h4 style="#FFFF00">HIGH END PHONE</h4>
+  <h4>MID RANGE / LOW RANGE PHONE</h4>
   <table border="1">
     <tr>
       <th>(POSITION())S.NO</th>
@@ -27,7 +29,7 @@
         <td><xsl:value-of select="homepage"/></td>
         <xsl:choose>
           <xsl:when test="PRICE > 15000">
-             <td bgcolor="#ff00ff">
+             <td bgcolor="#FFFF00">
              <xsl:value-of select="PRICE"/>
              </td>
           </xsl:when>
