@@ -96,6 +96,7 @@ while (result) {
     result = nodes.iterateNext();  
 }
 document.getElementById("location").innerHTML = txt;
+document.getElementById('location').style.border = '4em solid black';
 
 //Accessing By Node Type
 path = "//*";  
@@ -107,6 +108,7 @@ while (result) {
     result = nodes.iterateNext();  
 }
 document.getElementById("nodetype").innerHTML = txt;
+document.getElementById('nodetype').style.border = '4em solid black';
 
 //Accessing By Predicate
 path = "/CATALOG/TOPPHONES[last()]/*";  
@@ -118,6 +120,7 @@ while (result) {
     result = nodes.iterateNext();  
 }
 document.getElementById("predicate").innerHTML = txt;
+document.getElementById('predicate').style.border = '4em solid black';
 
 </script>  
 </body>  
