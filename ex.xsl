@@ -10,10 +10,11 @@
       <th>(POSITION())S.NO</th>
       <th>(ID)PHONE ID</th>
       <th>(CONCATED)PHONE NAME</th>
+      <th>(FLOORED)PRICE</th>
       <th>MODEL</th>
       <th>BRAND</th>
-      <th>(FLOORED)PRICE</th>
       <th>LINK</th>
+      <th>PRICE(HIGH-END HIGHLIGHTED)</th>
     </tr>
     <xsl:for-each select="TOPPHONES">
       <tr>
