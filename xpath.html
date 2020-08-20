@@ -14,7 +14,7 @@
       /* Float four columns side by side */
       .column {
         float: left;
-        width: 50%;
+        width: 25%;
         padding: 0 10px;
         height: 800px;
       }
@@ -53,22 +53,28 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <h3>Access(Node Location)</h3>
+      <h3 style="text-align: center;font-style: italic;">Access(Node Location)</h3>
       <p id="location"></p>
     </div>
   </div>
 
   <div class="column">
     <div class="card">
-      <h3>Access(Node Type)</h3>
+      <h3 style="text-align: center;font-style: italic;">Access(Node Type)</h3>
       <p id="nodetype"></p>
     </div>
   </div>
   
   <div class="column">
     <div class="card">
-      <h3>Accessing(Node Predicate)</h3>
+      <h3 style="text-align: center;font-style: italic;">Accessing(Node Predicate)</h3>
       <p id="predicate"></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <h3 id="xpathold" style="text-align: center;font-style: italic;">OLD XPATH FILE</h3>
+      <object data="https://balaji9944.github.io/xml/xpathold.html" width="700" height="500">
     </div>
   </div>
 </div>
@@ -123,8 +129,6 @@ document.getElementById("predicate").innerHTML = txt;
 document.getElementById('predicate').style.border = '1.5em solid black';
 
 </script>  
-<h3 id="xpathold" style="text-align: center;font-style: italic;">OLD XPATH FILE</h3>
-<object data="https://balaji9944.github.io/xml/xpathold.html" width="700" height="500">
 </object>
 </body>  
 </html>   
