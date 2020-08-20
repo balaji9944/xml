@@ -16,7 +16,7 @@
       <th>MODEL</th>
       <th>BRAND</th>
       <th>LINK</th>
-      <th>PRICE(HIGH-END HIGHLIGHTED)</th>
+      <th>CORRECT PRICE</th>
     </tr>
     <xsl:for-each select="TOPPHONES">
       <tr>
