@@ -14,6 +14,10 @@
     </tr>
     <xsl:for-each select="TOPPHONES">
       <tr>
+        <td><xsl:value-of select = "@id"/></td>
+        <td><xsl:value-of select = "concat(BRAND,' ',MODEL)"/></td>
+        <td><xsl:value-of select = "not(BRAND)"/></td>
+        <td><xsl:value-of select = "floor(PRICE)"/></td>
         <td><xsl:value-of select="MODEL"/></td>
         <td><xsl:value-of select="BRAND"/></td>
         <td><xsl:value-of select="PRICE"/></td>
