@@ -7,21 +7,41 @@
   <h2>My CD Collection</h2>
   <table border="1">
     <tr>
+      <th>(POSITION())S.NO</th>
+      <th>(ID)PHONE ID</th>
+      <th>(CONCATED)PHONE NAME</th>
       <th>MODEL</th>
       <th>BRAND</th>
-      <th>PRICE</th>
+      <th>(FLOORED)PRICE</th>
       <th>LINK</th>
     </tr>
     <xsl:for-each select="TOPPHONES">
       <tr>
         <td><xsl:value-of select = "position()"/></td>
+        <td><xsl:value-of select = "@id"/></td>
         <td><xsl:value-of select = "concat(BRAND,' ',MODEL)"/></td>
-        <td><xsl:value-of select = "not(BRAND)"/></td>
         <td><xsl:value-of select = "floor(PRICE)"/></td>
         <td><xsl:value-of select="MODEL"/></td>
         <td><xsl:value-of select="BRAND"/></td>
         <td><xsl:value-of select="PRICE"/></td>
         <td><xsl:value-of select="homepage"/></td>
+        <td>
+        <xsl:choose>
+                           <xsl:when test = "PRICE div 19000 <= 1">
+                              Low Range Phone
+                           </xsl:when>
+              
+                           <xsl:when test = "PRICE div 10000 >= 1">
+                              Med Range Phone
+                           </xsl:when>
+              
+                           <xsl:otherwise>
+                              Low Range Phone
+                           </xsl:otherwise>
+        </xsl:choose>
+    
+        </td>
+        
       </tr>
     </xsl:for-each>
   </table>  
