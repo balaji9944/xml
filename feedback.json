@@ -1,0 +1,7 @@
+[
+	{"customer_id":"012","customer_name":"abc","customer_rating":"5","phone_name":"samsung s7"},
+	{"customer_id":"345","customer_name":"def","customer_rating":"4","phone_name":"xiaomi redmi note 7 pro"},
+	{"customer_id":"678","customer_name":"ghi","customer_rating":"4.5","phone_name":"Apple Iphone 4"},
+	{"customer_id":"910","customer_name":"jkl","customer_rating":"3","phone_name":"Realme 4"},
+	{"customer_id":"111","customer_name":"mno","customer_rating":"3.8","phone_name":"Oppo A7"}
+]
