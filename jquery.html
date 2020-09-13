@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script>
+$(document).ready(function(){
+	$("#img3").hide();
+	$("#img4").hide();
+	$("#img5").hide();
+	$("#img6").hide();
+	$("#panel2").animate({
+		left: '500px',
+	    opacity: '0.5',
+	    height: '300px',
+	    width: '300px'});
+  $("#hide").click(function(){
+    $("p").hide(500);
+  });
+  $("#show").click(function(){
+    $("p").show(500);
+  });
+  $("#toggle").click(function(){
+    $("p").toggle(500);
+  });
+  $("#Huawei").click(function(){
+    $("#img6").fadeIn(3000);
+    $("#img4").fadeOut(3000);
+    $("#img5").fadeOut(3000);
+    $("#img3").fadeOut(3000);
+  });
+  $("#iphone").click(function(){
+    $("#img5").fadeIn(3000);
+    $("#img6").fadeOut(3000);
+    $("#img4").fadeOut(3000);
+    $("#img3").fadeOut(3000);
+  });
+  $("#samsung").click(function(){
+  	$("#img3").fadeOut(3000);
+    $("#img4").fadeIn(3000);
+    $("#img6").fadeOut(3000);
+    $("#img5").fadeOut(3000);
+  });
+  $("#nokia").click(function(){
+    $("#img3").fadeIn(3000);
+    $("#img4").fadeOut(3000);
+    $("#img6").fadeOut(3000);
+    $("#img5").fadeOut(3000);
+  });
+  $("#toggle2").click(function(){
+  	$("#panel2").toggle(500);
+  });
+  $("#remove").click(function(){
+    $("#img4").fadeOut(3000);
+    $("#img6").fadeOut(3000);
+    $("#img5").fadeOut(3000);
+    $("#img3").fadeOut(3000);
+    $("#panel").slideUp("slow");
+  });
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+  $( "#panel2" ).mouseover(function() {
+  $( "#log" ).append( "<div>Offer is going to expire order fast</div>" );
+  });
+});
+$(document).ready(function(){
+  $("li").click(function(){
+    $(this).hide(500);
+  });
+  $( "li" ).hover(
+  function() {
+    $( this ).append( $( "<span> ***</span>" ) );
+  }, function() {
+    $( this ).find( "span" ).last().remove();
+  }
+	);
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<p>If you click on the "Hide" button, I will disappear.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<h3>Phones</h3>
+<ul>
+	<li>Samsung</li>
+	<li>Xiaomi</li>
+	<li>Realme</li>
+	<li>Blackberry</li>
+</ul>
+<button id="toggle">Toggle between hiding and showing the paragraphs</button>
+<button id="nokia">Nokia Phone</button>
+<button id="samsung">Samsung Phone</button>
+<button id="iphone">IPhone Phone</button>
+<button id="Huawei">Huawei Phone</button>
+<button id="remove">Remove All</button>
+<button id="toggle2">Get Offers</button>
+<br>
+<br>
+<div id="flip">Photo Gallery</div>
+<div id="panel">
+	<img src="nokia9.jpg" id="img3" width="200" height="200">
+	<img src="j7.jpg" id="img4" width="200" height="200">
+	<img src="iphone11.jpg" id="img5" width="200" height="200">
+	<img src="y9s.jpg" id="img6" width="200" height="200">
+	
+</div>
+<div id="panel2" style="background:black;color:white;height:300px;text-align:center;width:300px;position:absolute;">
+		<b>Samsung Phones:</b> 10% Off<br><br>
+		<b>Nokia Phones:</b> 9% Off<br><br>
+		<b>IPhone Phones:</b> 8% Off<br><br>
+		<b>Huawei Phones:</b> 8% Off<br><br>
+		<b>Realme Phones:</b> 4% Off
+</div>
+<div id="log"></div>
+</body>
+</html>
