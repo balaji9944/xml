@@ -76,6 +76,11 @@ $(document).ready(function(){
   }
 	);
 });
+$(document).ready(function(){
+  $("#display").click(function(){
+    $("#address").text($("form").serialize());
+  });
+});
 </script>
 <style> 
 #panel, #flip {
@@ -148,5 +153,12 @@ $(document).ready(function(){
 		<b>Realme Phones:</b> 4% Off
 </div>
 <div id="log"></div>
+<form action="">
+  Address Line 1: <input type="text" name="AddressOne" placeholder="Enter Address Line 1"><br>
+  Address Line 2: <input type="text" name="AddressTwo" placeholder="Enter Address Line 2"><br>
+</form>
+<button id="display">Display Address</button>
+
+<div id="address"></div>
 </body>
 </html>
